@@ -1,6 +1,6 @@
-# Xiaoliang(Toby) Zhu
+<!-- # Xiaoliang(Toby) Zhu -->
 
-## About me (@^0^@)
+## About me
 I am Xiaoliang Zhu, or Toby Zhu, he/him/his.
 
 I study Math, Econ, and CS in [Vanderbilt University](https://www.vanderbilt.edu/). Looks like you are from Vanderbilt as well? Great. If you have never heard of this school, forget about it. It doesn't matter.
