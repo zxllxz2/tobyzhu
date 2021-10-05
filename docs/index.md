@@ -3,7 +3,7 @@ layout: about
 permalink: /
 profile:
   align: right
-  image: Xiaoliang_Zhu.jpg
+  image: Xiaoliang_Zhu1.jpg
 published: true
 ---
 
