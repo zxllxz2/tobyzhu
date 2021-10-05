@@ -1,13 +1,8 @@
 remote_theme: jitinnair1/gradfolio
-# title: Xiaoliang(Toby) Zhu
-# description: Welcome to the wonderland!
-
-### your site title here
-
 title: Xiaoliang(Toby) Zhu
-description: Teaching & Research Assistant | Vanderbilt University
+description: TA & RA | Vanderbilt University
 
-baseurl: /gradfolio #name of GitHub repository
+baseurl: /tobyzhu #name of GitHub repository
 # url: "" #custom url to be used instead of GitHub repository
 email: xiaoliang.zhu@vanderbilt.edu
 
