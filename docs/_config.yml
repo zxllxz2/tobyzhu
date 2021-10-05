@@ -20,9 +20,9 @@ permalink: /blog/:year/:title/
 paginate_path: /blog/page:num/
 
 # Social media links in footer
-facebook: "https://www.facebook.com/toby.zhu.54"
-linkedin: "https://www.linkedin.com/in/xiaoliangzhutoby/"
-github: "https://github.com/zxllxz2"
+facebook: "toby.zhu.54"
+linkedin: "xiaoliangzhutoby/"
+github: "zxllxz2"
 # researchgate: "#"
 # orcid: "#"
 
