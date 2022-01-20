@@ -7,7 +7,7 @@ profile:
 published: true
 ---
 
-I am Xiaoliang Zhu, or Toby Zhu, he/him/his. This is my <a href="/resume.pdf" target="_blank">resume</a>. Check it if you have an interest.
+I am Xiaoliang Zhu, or Toby Zhu, he/him/his. This is my <a href="./resume.pdf" target="_blank">resume</a>. Check it if you have an interest.
 <!-- [resume](/resume.pdf).  -->
 
 I study Math, Econ, and CS in [Vanderbilt University](https://www.vanderbilt.edu/). Looks like you are from Vanderbilt as well? Great. If you have never heard of this school, forget about it. It doesn't matter.
