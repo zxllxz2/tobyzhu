@@ -6,7 +6,6 @@ redirect: https://zxllxz2.github.io/continual_learning/
 ---
 
 
-
 This is a project that explores continual learning and distinctive approaches for overcoming catastrophic forgetting and intransigence.
 
 

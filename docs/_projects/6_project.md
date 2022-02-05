@@ -5,13 +5,18 @@ description: Small games developed with Python
 ---
 
 
-# Under construction
+## Under construction
 
-## Rogue-like Maze
+<br>
 
+### Rogue-like Maze
 
-## Dog-fight
+<br>
+<hr>
 
+### Dog-fight
+
+<br>
 
 <hr>
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cloud Office Platform - Front
-description: Front-end architecture of management platform
+description: Front-end framework of management platform
 ---
 
 The Cloud Office Platform is a full-stack project of an employee management platform with Role-Based Access Control. <a href="https://github.com/zxllxz2/cloud-office-front" target="_blank">This repository</a> is the source code of this front-end architecture project.

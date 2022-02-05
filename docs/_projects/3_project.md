@@ -4,7 +4,6 @@ title: Voyager Cryptor
 description: Image transformation with ECC encryption
 ---
 
-# Voyager Encryptor - VandyHacks2021
 This is a project for VandyHacks VIII, which is about the encryption and decryption of images using the Elliptic Curve Cryptography (ECC) encryption. We are a group of 4, and <a href="https://github.com/AllenJWZhu/VandyHacks2021" target="_blank">here is the repo</a> of this amazing project.
 
 ## Inspiration
