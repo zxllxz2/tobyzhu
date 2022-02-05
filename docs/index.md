@@ -14,4 +14,4 @@ I study Math, Econ, and CS in [Vanderbilt University](https://www.vanderbilt.edu
 
 I have worked for the College of Art & Science and also College of Engineering as a TA, and I'm currently working under [Dr. Kolouri](https://skolouri.github.io/) in [Machine Intelligence and Neural Technologies (MINT) lab](http://lab.vanderbilt.edu/mint-lab) as a RA, researching about catastrophic forgetting in the area of continual learning.
 
-Hope you are still here. There are some cool things that you want to look at. Maybe have a random check?
+Hope you are still here. There are some cool things that you may want to look at. Maybe have a random check?
