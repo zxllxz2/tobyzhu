@@ -1,10 +1,9 @@
 ---
 layout: post
 title: Cloud Office Platform - Front
-description: The front-end architecture of an employee management platform
+description: Front-end architecture of management platform
 ---
 
-# Cloud Office Platform
 The Cloud Office Platform is a full-stack project of an employee management platform with Role-Based Access Control. <a href="https://github.com/zxllxz2/cloud-office-front" target="_blank">This repository</a> is the source code of this front-end architecture project.
 
 ## Project setup
@@ -25,11 +24,12 @@ npm run build
 ## Tech stack
 Vue, Vue CLI, Vuex, Vue Router, Axios, ES6, Webpack, WebSocket, Font Awesome, vue-Chat-demo......
 
-Thanks @is-liyiwei and @Coffcer for the vue-chat and vue-Chat-demo, both of which are chatting demos built with Vue. The link to the original repository is below.
-- vue-chat: https://github.com/Coffcer/vue-chat<br>
-- vue-Chat-demo: https://github.com/is-liyiwei/vue-Chat-demo<br>
+Thanks <a href="https://github.com/is-liyiwei" target="_blank">@is-liyiwei</a> and <a href="https://github.com/Coffcer" target="_blank">@Coffcer</a> for the vue-chat and vue-Chat-demo, both of which are chatting demos built with Vue. The link to the original repository is below.
+- <a href="https://github.com/Coffcer/vue-chat" target="_blank">vue-chat: https://github.com/Coffcer/vue-chat</a><br>
+- <a href="https://github.com/is-liyiwei/vue-Chat-demo" target="_blank">vue-Chat-demo: https://github.com/is-liyiwei/vue-Chat-demo</a><br>
 
 ## Brief review
+
 
 ### Login entry
 

@@ -1,11 +1,10 @@
 ---
 layout: post
 title: Cloud Office Platform - Back
-description: The back-end module of an employee management platform
+description: Back-end module of management platform
 ---
 
-# Cloud Office Platform
-The Cloud Office Platform is a full-stack project of an employee management platform with Role-Based Access Control. Here is the <a href="https://github.com/zxllxz2/cloud-office-back" _target="blank">source code</a> of this website back-end module.
+The Cloud Office Platform is a full-stack project of an employee management platform with Role-Based Access Control. Here is the <a href="https://github.com/zxllxz2/cloud-office-back" target="_blank">source code</a> of this website back-end module.
 
 ## Tech stack
 Spring Boot, Spring Security, JWT, Swagger2, MyBatis-Plus, MySQL, Redis, RabbitMQ, WebSocket, EasyPoi...

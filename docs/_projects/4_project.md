@@ -10,8 +10,8 @@ redirect: https://zxllxz2.github.io/continual_learning/
 This is a project that explores continual learning and distinctive approaches for overcoming catastrophic forgetting and intransigence.
 
 
-- <a href="https://zxllxz2.github.io/continual_learning/" _target="blank"> Click to see our website</a>
-- <a href="https://mint-vu.github.io/" _target="blank">Click to see the Lab website</a>
+- <a href="https://zxllxz2.github.io/continual_learning/" target="_blank"> Click to see our website</a>
+- <a href="https://mint-vu.github.io/" target="_blank">Click to see the Lab website</a>
 
 
 <hr>
