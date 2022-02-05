@@ -17,6 +17,8 @@ Conducted a large update on this personal website, including:
 - Activated the function of timeline and archive
 - and etc.
 
+<br>
+<hr>
 
 Here is the picture used for my favicon:
 ![Kamen Rider ARK](../assets/images/ARK.jpg)
