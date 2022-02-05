@@ -1,153 +1,51 @@
 ---
 layout: post
-title: A longer Project Title
-description: short project description
+title: Cloud Office Platform - Back
+description: The back-end module of an employee management platform
 ---
 
-Example modified from [here](http://www.unexpected-vortices.com/sw/rippledoc/quick-markdown-example.html){:target="_blank"}.
+# Cloud Office Platform
+The Cloud Office Platform is a full-stack project of an employee management platform with Role-Based Access Control. Here is the <a href="https://github.com/zxllxz2/cloud-office-back" _target="blank">source code</a> of this website back-end module.
 
-H1 Header
-============
+## Tech stack
+Spring Boot, Spring Security, JWT, Swagger2, MyBatis-Plus, MySQL, Redis, RabbitMQ, WebSocket, EasyPoi...
 
-Paragraphs are separated by a blank line.
+## Getting start
+There are two main modules in this project - the server module, which contains most of the functionalities, and the mail module, which contains the APIs to send emails. To get start, simply run the YebApplication. If you want the function of sending emails automatically to new employees, you should run the MailApplication simultaneously.
 
-2nd paragraph. *Italic*, **bold**, and `monospace`. Itemized lists
-look like:
+## API documentatiom
+This project uses Swagger2 to generate the API documentation. After running the YebApplication, you can go to _**localhost:8081/doc.html**_ to check the documentation.
+(You may need to enter _**localhost:8081/doc.html?cache=1&lang=en**_ for English website)
 
-  * this one
-  * that one
-  * the other one
+![image](https://user-images.githubusercontent.com/56448228/148741966-8cf9b071-39cf-49d7-ab04-3db6ae7a8b57.png)
 
-Note that --- not considering the asterisk --- the actual text
-content starts at 4-columns in.
+You need to login in order to test those APIs. First, go to the captcha-controller to get the captcha.
 
-> Block quotes are
-> written like so.
->
-> They can span multiple paragraphs,
-> if you like.
+![image](https://user-images.githubusercontent.com/56448228/148742034-31b7a71e-d4fa-4e09-b07f-acbb09bb5c29.png)
 
-Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex., "it's all
-in chapters 12--14"). Three dots ... will be converted to an ellipsis.
-Unicode is supported. ☺
+Then, go to the LoginController to login. There are 3 available username: 'admin', 'taomeng', and 'naqiao', and the passwords are all '123'. Use the second API to login.
 
+![image](https://user-images.githubusercontent.com/56448228/148742153-16eeeb46-8cec-4739-ba51-b02819957f71.png)
 
-H2 Header
-------------
+After you get the token, go to the 'Authorize' section in the upper left corner. Enter 'Bearer ' with the token that you just got. Don't forget the SPACE between them! Click 'Save' to finish your login.
 
-Here's a numbered list:
+![image](https://user-images.githubusercontent.com/56448228/148742215-3a51413a-79fa-4822-a892-dac57edb9877.png)
 
- 1. first item
- 2. second item
- 3. third item
+Now, you are free to test any APIs listed here!
 
-Note again how the actual text starts at 4 columns in (4 characters
-from the left side). Here's a code sample:
-
-    # Let me re-iterate ...
-    for i in 1 .. 10 { do-something(i) }
-
-As you probably guessed, indented 4 spaces. By the way, instead of
-indenting the block, you can use delimited blocks, if you like:
-
-~~~
-define foobar() {
-    print "Welcome to flavor country!";
-}
-~~~
-
-(which makes copying & pasting easier). You can optionally mark the
-delimited block for Pandoc to syntax highlight it:
-
-~~~python
-import time
-# Quick, count to ten!
-for i in range(10):
-    # (but not *too* quick)
-    time.sleep(0.5)
-    print(i)
-~~~
+## Thanks
+Appreciate the channel "以代码为酒解忧愁" in Bilibili for helping me finish this project!
 
 
+<hr>
 
-### An h3 header ###
+<div>
 
-Now a nested list:
+  <a href="#top">Back to top</a>
 
- 1. First, get these ingredients:
+  <p style="text-align:center; display: flex; justify-content: space-between">
+    <a href="../1_project">Prev: Cloud Office Platform - Front</a>
+    <a href="../3_project">Next: Voyager Cryptor</a>
+  </p>
 
-      * carrots
-      * celery
-      * lentils
-
- 2. Boil some water.
-
- 3. Dump everything in the pot and follow
-    this algorithm:
-
-        find wooden spoon
-        uncover pot
-        stir
-        cover pot
-        balance wooden spoon precariously on pot handle
-        wait 10 minutes
-        goto first step (or shut off burner when done)
-
-    Do not bump wooden spoon or it will fall.
-
-Notice again how text always lines up on 4-space indents (including
-that last line which continues item 3 above).
-
-Here's a link to [a website](http://foo.bar), to a [local
-doc](local-doc.html), and to a [section heading in the current
-doc](#an-h2-header). Here's a footnote [^1].
-
-[^1]: Some footnote text.
-
-Tables can look like this:
-
-| Header 1 | Header 2                   | Header 3 |
-|:--------:|:--------------------------:|:--------:|
-| data1a   | Data is longer than header | 1        |
-| d1b      | add a cell                 |          |
-| lorem    | ipsum                      | 3        |
-|          | empty outside cells        |          |
-| skip     |                            | 5        |
-| six      | Morbi purus                | 6        |
-
-
-A horizontal rule follows.
-
-***
-
-Here's a definition list:
-
-apples
-  : Good for making applesauce.
-
-oranges
-  : Citrus!
-
-tomatoes
-  : There's no "e" in tomatoe.
-
-Again, text is indented 4 spaces. (Put a blank line between each
-term and  its definition to spread things out more.)
-
-Here's a "line block" (note how whitespace is honored):
-
-| Line one
-|   Line too
-| Line tree
-
-and images can be specified like so:
-
-![example image](https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=500&h=500&fit=crop "An exemplary image")
-
-Inline math equation: $\omega = d\phi / dt$. Display
-math should get its own line like so:
-
-$$I = \int \rho R^{2} dV$$
-
-And note that you can backslash-escape any punctuation characters
-which you wish to be displayed literally, ex.: \`foo\`, \*bar\*, etc.
+</div>

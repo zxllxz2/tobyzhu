@@ -1,152 +1,106 @@
 ---
 layout: post
-title: Short Project
-description: description of the short project which is long enough
+title: Cloud Office Platform - Front
+description: The front-end architecture of an employee management platform
 ---
-Example modified from [here](http://www.unexpected-vortices.com/sw/rippledoc/quick-markdown-example.html){:target="_blank"}.
 
-H1 Header
-============
+# Cloud Office Platform
+The Cloud Office Platform is a full-stack project of an employee management platform with Role-Based Access Control. <a href="https://github.com/zxllxz2/cloud-office-front" target="_blank">This repository</a> is the source code of this front-end architecture project.
 
-Paragraphs are separated by a blank line.
+## Project setup
+```
+npm install
+```
 
-2nd paragraph. *Italic*, **bold**, and `monospace`. Itemized lists
-look like:
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-  * this one
-  * that one
-  * the other one
+### Compiles and minifies for production
+```
+npm run build
+```
 
-Note that --- not considering the asterisk --- the actual text
-content starts at 4-columns in.
+## Tech stack
+Vue, Vue CLI, Vuex, Vue Router, Axios, ES6, Webpack, WebSocket, Font Awesome, vue-Chat-demo......
 
-> Block quotes are
-> written like so.
->
-> They can span multiple paragraphs,
-> if you like.
+Thanks @is-liyiwei and @Coffcer for the vue-chat and vue-Chat-demo, both of which are chatting demos built with Vue. The link to the original repository is below.
+- vue-chat: https://github.com/Coffcer/vue-chat<br>
+- vue-Chat-demo: https://github.com/is-liyiwei/vue-Chat-demo<br>
 
-Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex., "it's all
-in chapters 12--14"). Three dots ... will be converted to an ellipsis.
-Unicode is supported. ☺
+## Brief review
 
+### Login entry
 
-H2 Header
-------------
+![image](https://user-images.githubusercontent.com/56448228/148744745-cd085549-ae8b-4068-b38d-910b7d422cb0.png)
 
-Here's a numbered list:
+### Home page
 
- 1. first item
- 2. second item
- 3. third item
+![image](https://user-images.githubusercontent.com/56448228/148746793-94b84368-39f2-4ad3-affb-fbb3b1905aaa.png)
 
-Note again how the actual text starts at 4 columns in (4 characters
-from the left side). Here's a code sample:
+### Chat
 
-    # Let me re-iterate ...
-    for i in 1 .. 10 { do-something(i) }
+![image](https://user-images.githubusercontent.com/56448228/148747033-91fff5cc-9180-45da-b6a6-69a8acec5df6.png)
 
-As you probably guessed, indented 4 spaces. By the way, instead of
-indenting the block, you can use delimited blocks, if you like:
+![image](https://user-images.githubusercontent.com/56448228/148747163-6c0d5638-9d3a-48d2-b3c5-42be6f8d1fc5.png)
 
-~~~
-define foobar() {
-    print "Welcome to flavor country!";
-}
-~~~
+![image](https://user-images.githubusercontent.com/56448228/148747121-75be6789-40d4-48b2-9d78-ad57aa4e426c.png)
 
-(which makes copying & pasting easier). You can optionally mark the
-delimited block for Pandoc to syntax highlight it:
+### Basic employee Info
 
-~~~python
-import time
-# Quick, count to ten!
-for i in range(10):
-    # (but not *too* quick)
-    time.sleep(0.5)
-    print(i)
-~~~
+![image](https://user-images.githubusercontent.com/56448228/148745098-5bbc2706-bc24-4523-b4cd-c5994482d309.png)
 
+#### Advance search
 
+![image](https://user-images.githubusercontent.com/56448228/148745303-df989493-89e7-4db0-a4e1-31bf2ea42adb.png)
 
-### An h3 header ###
+#### Export
 
-Now a nested list:
+![image](https://user-images.githubusercontent.com/56448228/148745428-457a0764-e16e-4818-ad8f-0780ef0dfae9.png)
 
- 1. First, get these ingredients:
+![image](https://user-images.githubusercontent.com/56448228/148745492-d24d5e59-c25e-499a-a1c8-b1fc437d5958.png)
 
-      * carrots
-      * celery
-      * lentils
+#### Add employee
 
- 2. Boil some water.
+![image](https://user-images.githubusercontent.com/56448228/148745855-6d4a180b-3493-4daf-aa0f-2183ce35eb1a.png)
 
- 3. Dump everything in the pot and follow
-    this algorithm:
+##### Email invitation
 
-        find wooden spoon
-        uncover pot
-        stir
-        cover pot
-        balance wooden spoon precariously on pot handle
-        wait 10 minutes
-        goto first step (or shut off burner when done)
+![image](https://user-images.githubusercontent.com/56448228/148746359-8bfd7768-1fd6-437c-8c50-41525d04614b.png)
 
-    Do not bump wooden spoon or it will fall.
+### Payroll management
 
-Notice again how text always lines up on 4-space indents (including
-that last line which continues item 3 above).
+![image](https://user-images.githubusercontent.com/56448228/148746581-2bb74c24-dcf2-48e0-9d54-b26efc6186da.png)
 
-Here's a link to [a website](http://foo.bar), to a [local
-doc](local-doc.html), and to a [section heading in the current
-doc](#an-h2-header). Here's a footnote [^1].
+![image](https://user-images.githubusercontent.com/56448228/148746548-86990be9-4fb9-4de0-b12c-96254f183dd7.png)
 
-[^1]: Some footnote text.
+### Setting
 
-Tables can look like this:
+![image](https://user-images.githubusercontent.com/56448228/148746661-a51b1bb2-1b55-4a5a-91e9-70d1a92e6df7.png)
 
-| Header 1 | Header 2                   | Header 3 |
-|:--------:|:--------------------------:|:--------:|
-| data1a   | Data is longer than header | 1        |
-| d1b      | add a cell                 |          |
-| lorem    | ipsum                      | 3        |
-|          | empty outside cells        |          |
-| skip     |                            | 5        |
-| six      | Morbi purus                | 6        |
+![image](https://user-images.githubusercontent.com/56448228/148746735-55f3257f-aee3-4d6c-9fff-e949c2692e3b.png)
+
+### Profile
+
+![image](https://user-images.githubusercontent.com/56448228/148747252-b0e433a0-55dc-487f-8974-378fd6bdc251.png)
+
+### Other
+More sections are under construction......
+
+## Thanks
+Appreciate the channel "以代码为酒解忧愁" in Bilibili for helping me finish this project!
 
 
-A horizontal rule follows.
+<hr>
 
-***
+<div>
 
-Here's a definition list:
+  <a href="#top">Back to top</a>
 
-apples
-  : Good for making applesauce.
+  <p style="text-align:center; display: flex; justify-content: space-between">
+    <a href="../">Back: Projects</a>
+    <a href="../2_project">Next: Cloud Office Platform - Back</a>
+  </p>
 
-oranges
-  : Citrus!
-
-tomatoes
-  : There's no "e" in tomatoe.
-
-Again, text is indented 4 spaces. (Put a blank line between each
-term and  its definition to spread things out more.)
-
-Here's a "line block" (note how whitespace is honored):
-
-| Line one
-|   Line too
-| Line tree
-
-and images can be specified like so:
-
-![example image](https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=500&h=500&fit=crop "An exemplary image")
-
-Inline math equation: $\omega = d\phi / dt$. Display
-math should get its own line like so:
-
-$$I = \int \rho R^{2} dV$$
-
-And note that you can backslash-escape any punctuation characters
-which you wish to be displayed literally, ex.: \`foo\`, \*bar\*, etc.
+</div>
