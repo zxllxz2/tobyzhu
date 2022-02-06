@@ -4,7 +4,7 @@ title: Voyager Cryptor
 description: Image transformation with ECC encryption
 ---
 
-This is a project for VandyHacks VIII, which is about the encryption and decryption of images using the Elliptic Curve Cryptography (ECC) encryption. We are a group of 4, and <a href="https://github.com/AllenJWZhu/VandyHacks2021" target="_blank">here is the repo</a> of this amazing project.
+This is a project for VandyHacks VIII, which is about the encryption and decryption of images using the Elliptic Curve Cryptography (ECC) encryption. We are a group of 4, and <a href="https://github.com/AllenJWZhu/VandyHacks2021" target="_blank">here is the repo</a> of this amazing project. **Thanks Allen Zhu, Yilin Liu, and William Liang for finishing this project together!**
 
 ## Inspiration
 Inspired by the historic journey of the Voyager spacecraft mission in the year 1977, we are launching a Golden Record with a similar, yet unique "time capsule" into space. We have always been wondering about the existence of advanced space-faring civilizations dispersed throughout interstellar space and had a beautiful fantasy of possibly communicating with them... Do you want to be a designer of the next Voyager Golden Record and send a piece of information that would be unique to you to interstellar space? If so, welcome to the journey!

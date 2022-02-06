@@ -3,8 +3,9 @@ layout: post
 title: Website Update
 ---
 
-Conducted a large update on this personal website, including:
+Conducted a large update on this personal website.
 
+Items include:
 - Updated projects finished recently or during Fall 2021, which includes
   - Cloud Office Platform
   - Voyager Cryptor

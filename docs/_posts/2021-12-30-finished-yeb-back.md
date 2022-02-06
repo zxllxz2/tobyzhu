@@ -1,27 +1,8 @@
 ---
 layout: post
-title:  A Jelly-Fish
+title:  Finished Back-end of Cloud Office Plat.
 ---
 
-Visible, invisible,  
-A fluctuating charm,  
-An amber-colored amethyst  
-Inhabits it; your arm  
-Approaches, and  
-It opens and  
-It closes;  
-You have meant  
-To catch it,  
-And it shrivels;  
-You abandon  
-Your intent—  
-It opens, and it  
-Closes and you  
-Reach for it—  
-The blue  
-Surrounding it  
-Grows cloudy, and  
-It floats away  
-From you.  
+Finished the back-end module of an employee management system: Cloud Office Platform.
 
-[by Marianne Moore](https://poets.org/anthology/poems-your-poetry-project-public-domain)
+Check the [project post](../_projects/2_project) or its <a href="https://github.com/zxllxz2/cloud-office-back" target="_blank">github repository</a>.  
