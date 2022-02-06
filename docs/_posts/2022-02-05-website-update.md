@@ -21,6 +21,6 @@ Conducted a large update on this personal website, including:
 <hr>
 
 Here is the picture used for my favicon:
-![Kamen Rider ARK](../assets/images/ARK.jpg)
+![Kamen Rider ARK]({{site.baseurl}}/assets/images/ARK.jpg)
 
 <a href="https://www.pixiv.net/users/19477704" target="_blank">by inksac</a>
