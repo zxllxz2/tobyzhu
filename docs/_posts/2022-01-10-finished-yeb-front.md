@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Finished Front-end of Cloud Office Plat.
+title:  Finished front-end of Cloud Office Plat.
 ---
 
 Finished the front-end architecture of an employee management system: Cloud Office Platform.

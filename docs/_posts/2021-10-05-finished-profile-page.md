@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Finished Profile Page of Website
+title: Finished profile page of website
 ---
 
 Conducted a single update on this personal website.

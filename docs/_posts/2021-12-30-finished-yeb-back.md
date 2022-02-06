@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Finished Back-end of Cloud Office Plat.
+title:  Finished back-end of Cloud Office Plat.
 ---
 
 Finished the back-end module of an employee management system: Cloud Office Platform.

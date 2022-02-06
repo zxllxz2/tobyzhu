@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Website Update
+title: Website update
 ---
 
 Conducted a large update on this personal website.
