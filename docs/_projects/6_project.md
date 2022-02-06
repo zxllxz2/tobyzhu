@@ -12,7 +12,7 @@ description: Small games developed with Python
 ### Rogue-like Maze
 
 <br>
-<hr>
+<hr><br>
 
 ### Dog-fight
 
