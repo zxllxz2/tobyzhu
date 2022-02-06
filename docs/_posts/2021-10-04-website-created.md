@@ -3,7 +3,7 @@ layout: post
 title: Created the personal website
 ---
 
-Created the repo of this website, applying what I learned from the Github Page workshop to real implementaiton.
+Created the repo of this website, applying what I learned from the Github Page workshop to real implementaiton
 
 
 <br>
